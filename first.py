@@ -1,8 +1,8 @@
- import streamlit as st 
- import fitz  # PyMuPDF 
- from sentence_transformers import SentenceTransformer, util 
- import numpy as np 
- import pandas as pd 
+import streamlit as st
+import fitz  # PyMuPDF
+from sentence_transformers import SentenceTransformer, util 
+import numpy as np 
+import pandas as pd 
 
  # Load the pre-trained Hugging Face model 
  @st.cache_resource 
